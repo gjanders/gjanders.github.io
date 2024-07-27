@@ -1,0 +1,26 @@
+baseURL: https://gjanders.github.io/
+languageCode: en-us
+title: Gareth's personal website 
+theme: ["PaperMod"]
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: "Website to describe blog posts"
+  author: Gareth Anderson
+
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: >
+      Welcome to my personal webpage. This page exists to share blog posts I have written. I also maintain Splunk applications and scripts on SplunkBase and github
+
+  socialIcons:
+    - name: github
+      title: Splunk applications I host on github
+      url: "https://github.com/gjanders"
+    - name: medium
+      url: "https://medium.com/@gjanders03"
+      title: Medium profile
+    - name: linkedin
+      title: Linkedin profile
+      url: "https://www.linkedin.com/in/garethanderson1/"
+
