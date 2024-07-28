@@ -2,6 +2,7 @@ baseURL: https://gjanders.github.io/
 languageCode: en-us
 title: Gareth's personal website 
 theme: ["PaperMod"]
+copyright: © 2024 Gareth Anderson
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
