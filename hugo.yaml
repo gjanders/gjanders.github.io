@@ -14,6 +14,8 @@ params:
     Content: >
       Welcome to my personal webpage. This page exists to share blog posts I have written. I also maintain Splunk applications and scripts on SplunkBase and github
 
+  social: true
+
   socialIcons:
     - name: github
       title: Splunk applications I host on github
@@ -24,4 +26,3 @@ params:
     - name: linkedin
       title: Linkedin profile
       url: "https://www.linkedin.com/in/garethanderson1/"
-
