@@ -48,3 +48,16 @@ This may not be required if you can see your Splunk instances shutting down clea
 This is the only Splunk application I have created that is not published on Splunkbase. This app includes a dashboard to help users change the TTL, or time to live of any savedsearch. Additionally the appadmins dashboard allows team members without write access to a Splunk application to clone/change ownership of various knowledge objects within the application.
 
 This particular use-case was related to the concept of having those who have read-only access within an application but may need to share a dashboard or report under some circumstances with the approval of an "app admin".
+
+## [etc_backup](https://github.com/gjanders/etc_backup)
+
+A simple Splunk application to backup the directories under /opt/splunk/etc that would be required to restore an SHC member, excluding various files that come from the deployer.
+
+## [kvstore_backup](https://github.com/gjanders/kvstore_backup)
+
+A simple Splunk application to backup the kvstore using a modular input.
+
+## [kvstore_checker](https://github.com/gjanders/kvstore_checker)
+
+A simple Splunk application to record the status of the kvstore via a scripted input. Useful for detecting when the kvstore has stopped working without watching for the mongod.log to stop updating.
+
