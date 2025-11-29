@@ -65,3 +65,8 @@ The heuristics report packaged in Splunk 9.1.3 caused production issues in my en
 [GitHub link](https://github.com/gjanders/AppDisabler)
 
 Since I found a problematic report was causing issues, I decided to utilise the REST endpoint to disable Splunk applications. This application allows the REST endpoint to be utilised to disable the application as requested.
+
+## [Automatic Data Rebalance](https://splunkbase.splunk.com/app/7969)
+[GitHub link](https://github.com/gjanders/auto_data_rebalance)
+
+This technical addon exists to automate the data rebalance process on indexer clusters by creating a new modular input. This allows a scheduled rebalance to occur on the indexer cluster(s) as required.
