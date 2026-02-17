@@ -15,6 +15,8 @@ This first script is documented in the README.md of the repository and exists to
 
 The script itself was written prior to the concept of deployer ["push modes"](https://docs.splunk.com/Documentation/Splunk/latest/DistSearch/PropagateSHCconfigurationchanges#Choose_a_deployer_push_mode). In more recent migrations I've used the deployer push modes to migrate to a new search head cluster. This script is also the pre-cursor to the [Version Control Splunkbase app](https://splunkbase.splunk.com/app/4355).
 
+Additionally, I have added a lookup transfer mechanism, `download_lookups_from_splunk.py` and `upload_lookups_to_splunk.py` exist to transfer lookups from one SHC to another using the Splunk App for Lookup File Editing (previously known as the lookup editor).
+
 ## [SplunkK8s](https://github.com/gjanders/SplunkK8s)
 
 This repository hosts K8s related scripts, the files purposes are quite simple:
