@@ -63,3 +63,6 @@ A simple Splunk application to backup the kvstore using a modular input.
 
 A simple Splunk application to record the status of the kvstore via a scripted input. Useful for detecting when the kvstore has stopped working without watching for the mongod.log to stop updating.
 
+## [presentations](https://github.com/gjanders/presentations)
+
+Copies of previous slidedecks or presentations I have given, excluding [splunkconf2017](https://github.com/gjanders/splunkconf2017) which has a dedicated git repository.
