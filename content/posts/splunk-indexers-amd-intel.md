@@ -7,4 +7,4 @@ ShowToc: true
 
 This article compares the performance of AMD-based hardware against our existing Intel based hardware of the same generation. The discussion includes analysis of impact on Splunk performance, disk performance, and CPU performance with NUMA enabled and disabled.
 
-The full post is available on medium as [Splunk Indexing Tier: Intel and AMD Hardware Performance Comparison](https://medium.com/@gjanders03/splunk-indexing-tier-intel-and-amd-hardware-performance-comparison-3f81a384fc53). A Splunk lantern post is pending.
+The full post is available on medium as [Splunk Indexing Tier: Intel and AMD Hardware Performance Comparison](https://medium.com/@gjanders03/splunk-indexing-tier-intel-and-amd-hardware-performance-comparison-3f81a384fc53). Or on Splunk lantern as [Comparing Intel and AMD hardware performance for the indexing tier](https://lantern.splunk.com/Manage_Performance_and_Health/Comparing_Intel_and_AMD_hardware_performance_for_the_indexing_tier)
